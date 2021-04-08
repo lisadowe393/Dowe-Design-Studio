@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact - Dowe Design Studio</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/contact.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
+	<script>
+		function openMenu(){
+			document.getElementById('menu').style.width='300px';
+		}
+		function closeMenu(){
+			document.getElementById('menu').style.width='0px';
+		}
+	</script>
+</head>
+<body>
+	<div id="content-wrapper">
+			<div id="navbar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="portfolio.html">+Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+<header>
+				<div class="fixed-div">
+					<img src="images/dd_logo.png" class="center" alt="Dowe Design Studio">
+						<h1>dowe design studio</h1>
+				</div>
+</header>
+
+<main>
+	<div class="container-fluid">
+		<div class="row d-flex img-fluid justify-content-center">
+			<div class="col-lg-6 col-lg-offset-2">
+				<h2>Let's Make<span class="orange"> Beautiful</span> Visuals Together!</h2>
+			<div>
+		</div>
+
+<section>		
+	<form id="contact-form" method="post" action="contact-2.php" role="form">
+		<div class="messages">
+			<div class="controls">
+
+				<div class="row1 d-flex img-fluid justify-content-center">
+					<div class="column 1 col-lg-6">
+						<div class="form-group">
+							<label for="form_name">First Name </label>
+								<input id="form_firstname" type="text" name="name" class="form-control"  required="required" data-error="First Name is required.">
+									<div class="help-block with-errors"></div>
+						</div>
+							</div>
+						<div class="column 2 col-lg-6">
+							<div class="form-group">
+								<label for="form_lastname">Last Name </label>
+									<input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Last Name is required.">
+										<div class="help-block with-errors"></div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row2">
+					<div class="column3 col-md-6">
+						<div class="form-group">
+							<label for="form_email">Email </label>
+								<input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
+									<div class="help-block with-errors"></div>
+						</div>
+					</div>
+				</div>
+							
+					
+				<div class="row3">
+					<div class="column4 col-md-12">
+						<div class="form-group">
+							<label for="form_message">Message</label>
+								<textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please leave a message."></textarea>
+									<div class="help-block with-errors"></div>
+						</div>
+					</div>
+				</div>
+						
+				<div class="direct">
+					<a href="mailto:info@dowedesignstudio.com?subject=Subject%20Here" 	id="mail"></a>
+				</div>
+						
+
+				<div class="col-md-12">
+					<input type="submit" class="btn btn-success btn-send" value="Send Message">
+				</div>
+
+				<div id="head-soci">
+					<ul>
+					<li id="instagram"><a href="https://www.instagram.com/dowedesignstudio/">Instagram</a></li>
+					<li id="behance"><a href="https://www.behance.net/dowedesignstudio">Behance</a></li>
+					</ul>
+
+				<div class="image-container-fluid">
+					<img src="images/dd-head.svg" id="head" alt="Head">
+						<h3>CREATIVITY STARTS WITH THOUGHT</h3>		
+				</div>
+
+
+					</div>
+				</div>
+			</div> 
+		</div> 
+	</form>
+</section>
+</main>
+
+<footer>
+	Copyright © Dowe Design Studio  All Rights Reserved
+</footer>
+
+	<script src="./scripts/class.phpmailer.php"></script>
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+	<script src="./scripts/contact.js"></script>
+
+
+
+	</div>
+</body>
+</html>
