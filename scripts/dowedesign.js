@@ -45,7 +45,7 @@ gsap.to('#text6, #text7, #text8', {
    gsap.from('#typing h2',{
      text: "",
      repeat: -1,
-     ease: 1,
+     ease: 0,
      duration: 3
 
    })
