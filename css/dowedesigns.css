@@ -234,6 +234,7 @@ p2{
 	margin-top: 50px;
 	margin-left: 140px;
 	padding: 20px;
+	overflow: hidden;
 } 
 h3{
 	font-size: 2em;
@@ -413,7 +414,7 @@ h5{
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 200px;
+	margin-top: 350px;
 	margin-bottom: 100px;
 }
 
@@ -428,20 +429,39 @@ Media Queries
 
 
 @media screen and (max-width: 375px) {
-	#portfolio p{
-		margin-left: -1px;
+	#navbar{
+		display: flex;
+}
+	#navbar a{
+		flex: 1;
 	}
 	p1{
 		display: none;
 	}
-	.image-container1{
-		margin-left: -71px;
+	#portfolio p{
+		margin-left: -1px;
+	}
+	
+	.image-container1 #animation{
+		margin-left: -115px;
 	}
 	.container-fluid{
 		max-width: 100%;	
 	}
+	.row{
+		margin-left: -26px;
+	}
 	#image{
 		margin-left: 11px;
+	}
+	.container-fluid1{
+		margin-left: 0px;
+	}
+	.row2{
+		margin-top: -7px;
+	}
+	.row3{
+		margin-top: -7px;
 	}
 	.container{
 		margin-left: -10px;	
@@ -480,11 +500,15 @@ Media Queries
 	.container-fluid4{
 		margin-top: -75px;
 	}
+	h4{
+		font-size: 1em;
+	}
 	.container-fluid5{
 		max-width: 100%;
 		margin-top: -201px;
 	}
 	#book{
+		max-width: 100%;
 		border: 6px solid #FFB0BD;
 		padding: 0;
 	
@@ -503,7 +527,8 @@ Media Queries
 	
 }
 
-@media screen and (max-width: 768px) 
+
+@media screen and (max-width: 768px) {
 	#navbar{
 		display: flex;
 }
@@ -521,7 +546,7 @@ Media Queries
 	}
 	.container-fluid1{
 		max-width: 100%;
-		margin-left: 5px;	
+		margin-left: 8px;	
 
 	}
 	.container{
@@ -565,6 +590,148 @@ Media Queries
 	}
 	.process h6{	
 		margin-top: 50px;
+
+	}
+}
+
+
+
+@media screen and (max-width: 900px) {
+	#navbar{
+		display: flex;
+	}
+	#navbar a{
+		flex: 1;
+	}
+	p1{
+		display: none;
+	}
+	.image-container1{
+		margin-left: 78px;
+	}
+	.container-fluid{
+		max-width: 100%;
+	}
+	#image{
+		margin-left: 22px;
+	}
+	.container-fluid1{
+		max-width: 100%;
+		margin-left: 10px;
+	}
+	#typing h2{	
+		font-size: 2.5em;
+		margin-top: -27px;
+		display: block;
+		margin-left: 150px;
+	} 
+	.container-fluid2{
+		width: 100%;
+	}
+	.caption-center{
+		margin-left: 78px;
+	}
+	.container-fluid3{
+		max-width: 100%;
+		margin-top: -395px;	
+	}
+	.container-fluid4{
+		width: 100%;
+		margin-top: -40px;
+	}
+	.container-fluid5{
+		max-width: 100%;
+		margin-top: -201px;
+	}
+	#book{
+		max-width: 100%;
+		border: 10px solid #FFB0BD;
+		padding: 0;
+		margin-top: 75px;
+	}
+	#content{
+		max-width: 100%;
+		height: auto;
+		margin-top: 53px;
+	}
+	.container-fluid6{
+		width: 100%;
+		margin-top: -150px;
+	}
+	.process h6{	
+		margin-top: 150px;
+
+	}
+}
+
+
+@media screen and (max-width: 1400px) and (min-width: 900){
+	#navbar{
+		display: flex;
+	}
+	#navbar a{
+		flex: 1;
+	}
+
+	.image-container1{
+		margin-left: 78px;
+	}
+	.container-fluid{
+		max-width: 100%;
+	}
+	#image{
+		margin-left: 22px;
+	}
+	.container-fluid1{
+		max-width: 100%;
+		margin-left: 10px;
+	}
+	#typing h2{	
+		font-size: 2.5em;
+		margin-top: -27px;
+		display: block;
+		margin-left: 150px;
+	} 
+	.container-fluid2{
+		width: 100%;
+	}
+	.caption-center{
+		margin-left: 70px;
+	}
+	.container-fluid3{
+		max-width: 100%;
+		margin-top: -480px;	
+	}
+	.container-fluid4{
+		width: 100%;
+		margin-top: -40px;
+	}
+	.container-fluid5{
+		max-width: 100%;
+		margin-top: -201px;
+	}
+	#book{
+		max-width: 100%;
+		border: 12px solid #FFB0BD;
+		padding: 0;
+		margin-top: 75px;
+	}
+	#content{
+		max-width: 100%;
+		height: auto;
+		margin-top: 53px;
+	}
+	.container-fluid6{
+		width: 100%;
+	}
+	#phone{
+		margin-top: 200px;
+	}
+	#hand{
+		margin-top: 200px;
+	}
+	.process h6{	
+		margin-top: 300px;
 
 	}
 }
