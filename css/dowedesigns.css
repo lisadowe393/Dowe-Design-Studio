@@ -61,6 +61,7 @@ p1{
 	margin-left: 630px;
 	padding: 5px;
 	margin-top: 50px;
+	display: none;
 }
 #animation{
 	position: absolute;
@@ -424,22 +425,24 @@ h5{
 	}
 
 /*-------------------------
-Media Queries
+Media Queries 375
 ---------------------------*/
 
 
 @media screen and (max-width: 375px) {
-	#navbar{
-		display: flex;
-}
-	#navbar a{
-		flex: 1;
+		#navbar{
+			display: flex;
 	}
+		#navbar a{
+			flex: 1;
+		}
+
 	p1{
 		display: none;
 	}
 	#portfolio p{
 		margin-left: -1px;
+		font-size: 20px;
 	}
 	
 	.image-container1 #animation{
@@ -527,6 +530,10 @@ Media Queries
 	
 }
 
+/*-------------------------
+Media Queries 768
+---------------------------*/
+
 
 @media screen and (max-width: 768px) {
 	#navbar{
@@ -539,7 +546,7 @@ Media Queries
 		display: none;
 	}
 	.image-container1{
-		margin-left: 15px;
+		margin-left: 7px;
 	}
 	#image{
 		margin-left: 22px;
@@ -595,6 +602,10 @@ Media Queries
 }
 
 
+/*-------------------------
+Media Queries 900
+---------------------------*/
+
 
 @media screen and (max-width: 900px) {
 	#navbar{
@@ -603,11 +614,11 @@ Media Queries
 	#navbar a{
 		flex: 1;
 	}
+	.image-container1{
+		margin-left: -50px;
+	}
 	p1{
 		display: none;
-	}
-	.image-container1{
-		margin-left: 78px;
 	}
 	.container-fluid{
 		max-width: 100%;
@@ -664,8 +675,12 @@ Media Queries
 	}
 }
 
+/*-------------------------
+Media Queries 901-1400
+---------------------------*/
 
-@media screen and (max-width: 1400px) and (min-width: 900){
+
+@media screen and (max-width: 1400px) and (min-width: 901){
 	#navbar{
 		display: flex;
 	}
