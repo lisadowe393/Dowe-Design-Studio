@@ -15,7 +15,8 @@ nav, body, #footer-nav {
 }
 
 footer {
-  padding: 3em;
+  padding: 1em;
+  padding-bottom: 2em;
 }
 
 nav a, #footer-nav a {
@@ -27,4 +28,8 @@ nav a, #footer-nav a {
 nav a:hover, #footer-nav a:hover{
 	color: #ffb0bd;
 	text-decoration: none;
+}
+
+hr {
+  border-top: 1px solid white;
 }
