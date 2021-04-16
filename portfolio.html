@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio-Dowe Design Studio</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet"  href="css/portfolio.css">
-	<link rel="stylesheet"  href="css/stylesheet.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio-Dowe Design Studio</title>
+		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 
-</head>
-<body>
-	<div class="content-wrapper">
-		<nav id="navbar">
-			<a href="index.html">Home</a>
-			<a href="about.html">About</a>
-			<a href="portfolio.html">+Portfolio</a>
-			<a href="contact.html">Contact</a>
-		</nav>
-<header id="portfolio-header">
-	<h1>FEATURED WORK</h1>
-</header>
-<main>
-	<section class="content-container">
-			<div id="portfolio">
-				<a href="dowedesignstudio.html"><h2>DOWE DESIGN STUDIO</h2></a>
-				<p>Branding  Mobile &amp; Web  Animation</p>
-				<a href="brooklynpark.html"><h2>BROOKLYN PARK</h2></a>
-				<p>Branding  Mobile &amp; Web  Packaging</p>
-				<a href="wanderlust.html"><h2>WANDERLUST TRAVEL ADVENTURES</h2></a>
-				<p>Branding  Mobile &amp; Web  Animation</p>
-				<a href="foragersforest.html"><h2>FORAGER'S FOREST TEA</h2></a>
-				<p>Branding  Mobile &amp; Web  Animation  Packaging</p>
-				<a href="cremephraiche.html"><h2>CREME PHRAICHE ICE CREAM  &amp;  DESSERT BAR</h2></a>
-				<p>Branding  Mobile &amp; Web  Packaging</p>
-			</div>
-	</section>
-	<section class="container-fluid">
-					<img src="images/dd-pink.png" alt="Circle">
-					<img src="images/dd-orange.png" alt="Circle">
-					<img src="images/dd-pink.png" alt="Circle">
-					<img src="images/dd-orange.png" alt="Circle">
-	</section>	
+		<link rel="stylesheet" href="css/bootstrap.min.css">    
+		<link rel="stylesheet"  href="css/robert/stylesheet.css">
+		<link rel="stylesheet"  href="css/robert/portfolio.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
 
-	<section class="prev-next">
-			<a href="about.html" class="previous">&laquo; Previous</a>
-			<a href="dowedesignstudio.html" class="next">Next &raquo;</a>
-	</section>
+	</head>
+	<body class="container-fluid">
 
-</main>
-<footer>
-	Copyright © Dowe Design Studio  All Rights Reserved
-</footer>
-</div>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-	
-</body>
+		<!-- Navbar -->
+    <nav class="row" id="navbar">
+      <a href="index.html" class="col-sm text-center">Home</a>
+      <a href="about.html" class="col-sm text-center">About</a>
+      <a href="portfolio.html" class="col-sm text-center">+Portfolio</a>
+      <a href="contact.html" class="col-sm text-center">Contact</a>
+    </nav>
+
+		<!-- Title -->
+		<header class="container-fluid">
+			<h1 class="text-center">FEATURED WORK</h1>
+		</header>
+
+		<!-- Content -->
+		<main>
+			
+			<!-- Links -->
+			<section class="container-fluid">
+				<a class="text-center" href="dowedesignstudio.html"><h2>DOWE DESIGN STUDIO</h2></a>
+				<p class="text-center">Branding  Mobile &amp; Web  Animation</p>
+				<a class="text-center" href="brooklynpark.html"><h2>BROOKLYN PARK</h2></a>
+				<p class="text-center">Branding  Mobile &amp; Web  Packaging</p>
+				<a class="text-center" href="wanderlust.html"><h2>WANDERLUST TRAVEL ADVENTURES</h2></a>
+				<p class="text-center">Branding  Mobile &amp; Web  Animation</p>
+				<a class="text-center" href="foragersforest.html"><h2>FORAGER'S FOREST TEA</h2></a>
+				<p class="text-center">Branding  Mobile &amp; Web  Animation  Packaging</p>
+				<a class="text-center" href="cremephraiche.html"><h2>CREME PHRAICHE ICE CREAM  &amp;  DESSERT BAR</h2></a>
+				<p class="text-center">Branding  Mobile &amp; Web  Packaging</p>
+			</section>
+
+			<!-- Circles -->
+			<section class="row">
+				<img src="images/dd-pink.png" alt="Circle" class="w-25">
+				<img src="images/dd-orange.png" alt="Circle" class="w-25">
+				<img src="images/dd-pink.png" alt="Circle" class="w-25">
+				<img src="images/dd-orange.png" alt="Circle" class="w-25">
+			</section>
+
+			<!-- Nav Footer -->
+      <section id="footer-nav" class="container-fluid row justify-content-between">
+        <div class="col-xs">
+          <a href="index.html" class="col-sm text-center">&laquo; Previous</a>
+        </div>
+        <div class="col-xs">
+          <a href="portfolio.html" class="col-sm text-center">Next &raquo;</a>
+        </div>
+      </section>
+		</main>
+
+		<!-- Footer -->
+    <footer class="text-center" id="footer">
+      Copyright © Dowe Design Studio  All Rights Reserved
+    </footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+	</body>
 </html>
