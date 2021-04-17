@@ -1,81 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Dowe Design Studio</title>
-	<link rel="stylesheet" href="css/normalize.css">
-<!--	<link rel="stylesheet" href="css/bootstrap.min.css"> -->	
-	<link rel="stylesheet"  href="css/stylesheet.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
-	<script>
-		function openMenu(){
-			document.getElementById('menu').style.width='300px';
-		}
-		function closeMenu(){
-			document.getElementById('menu').style.width='0px';
-		}
-	</script>
-</head>
-<body>
-	<div id="content-wrapper">
-			<nav id="navbar">
-					<a href="index.html">Home</a>
-					<a href="about.html">About</a>
-					<a href="portfolio.html">+Portfolio</a>
-					<a href="contact.html">Contact</a>
-			</nav>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dowe Design Studio</title>
+		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">	
+		<link rel="stylesheet"  href="css/robert/stylesheet.css">
+		<link rel="stylesheet"  href="css/robert/index.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
+		<script>
+			// function openMenu(){
+			// 	document.getElementById('menu').style.width='300px';
+			// }
+			// function closeMenu(){
+			// 	document.getElementById('menu').style.width='0px';
+			// }
+		</script>
+	</head>
+	<body class="container-fluid">	
+		<!-- Navbar -->
+    <nav class="row" id="navbar">
+      <a href="index.html" class="col-md text-center">Home</a>
+      <a href="about.html" class="col-md text-center">About</a>
+      <a href="portfolio.html" class="col-md text-center">+Portfolio</a>
+      <a href="contact.html" class="col-md text-center">Contact</a>
+    </nav>
 
-<header>
-	<div id="header">
-		<img src="images/dd_logo.png" id="logo" alt="Dowe Design Studio">
-			<h1>dowe design studio</h1>
-	</div>
-</header>
+		<header>
+			<img src="images/dd_logo.png" id="logo" alt="Dowe Design Studio" class="img-fluid">
+			<h1 class="text-center">dowe design studio</h1>
+		</header>
 
-<main>
-	<section class="featured">
-		<h2>I AM A DIGITAL DESIGNER</h2>
-		<h3>MY SERVICES INCLUDE</h3>
-		<p>Branding      Visuals      Editorials<br>
-		Mobile&amp;Web      Animations</p>
-	</section>
+		<main>
+			<section class="featured">
+				<h2>I AM A DIGITAL DESIGNER</h2>
+				<h3>MY SERVICES INCLUDE</h3>
+				<p>Branding      Visuals      Editorials<br>
+				Mobile&amp;Web      Animations</p>
+			</section>
 
-	<section class="featured">
-		<h4>THANKS FOR STOPPING BY</h4>
-	</section>
+			<section class="featured">
+				<h4>THANKS FOR STOPPING BY</h4>
+			</section>
 
-	<section class="prev-next">
-			<a href="about.html" class="next">Next &raquo;</a>
-	</section>
+			<!-- Nav Footer -->
+      <section id="footer-nav" class="container-fluid row justify-content-center">
+        <div class="col-xs">
+          <a href="portfolio.html" class="col-sm text-center">Next &raquo;</a>
+        </div>
+      </section>
 
-</main>
+		</main>
 
-<footer>
-		Copyright © Dowe Design Studio  All Rights Reserved
-</footer>
+		<hr/>
 
-</div>
+		<!-- Footer -->
+    <footer class="text-center" id="footer">
+      Copyright © Dowe Design Studio  All Rights Reserved
+    </footer>
 
-	<div id="background-wrapper">
-		<img src="images/dd_circle.png" id="right-ring" class="background-image">
-		<img src="images/dd_circle.png" id="left-ring" class="background-image">
-		<img src="images/dd_pinkcircle.svg" id="right-pink" class="background-image">
-		<img src="images/dd_pinkcircle.svg" id="left-pink" class="background-image">
-		<img src="images/dd_pinkcircle.svg" id="pink-1" class="background-image">
-		<img src="images/dd_pinkcircle.svg" id="pink-2" class="background-image">
-		<img src="images/dd_pinkcircle.svg" id="pink-3" class="background-image">
-		<img src="images/dd_orangecircle.svg" id="right-orange" class="background-image">
-		<img src="images/dd_orangecircle.svg" id="left-orange" class="background-image">
-		<img src="images/dd_orangecircle.svg" id="orange-1" class="background-image">
-		<img src="images/dd_orangecircle.svg" id="orange-2" class="background-image">
-		<img src="images/dd_orangecircle.svg" id="orange-3" class="background-image">
-	</div>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-	<script src="./scripts/main.js"></script>
-
-</body>
-
+		<!-- Circles -->
+		<div id="background-wrapper">
+			<img src="images/dd_circle.png" id="right-ring" class="background-image">
+			<img src="images/dd_circle.png" id="left-ring" class="background-image">
+			<img src="images/dd_pinkcircle.svg" id="right-pink" class="background-image">
+			<img src="images/dd_pinkcircle.svg" id="left-pink" class="background-image">
+			<img src="images/dd_pinkcircle.svg" id="pink-1" class="background-image">
+			<img src="images/dd_pinkcircle.svg" id="pink-2" class="background-image">
+			<img src="images/dd_pinkcircle.svg" id="pink-3" class="background-image">
+			<img src="images/dd_orangecircle.svg" id="right-orange" class="background-image">
+			<img src="images/dd_orangecircle.svg" id="left-orange" class="background-image">
+			<img src="images/dd_orangecircle.svg" id="orange-1" class="background-image">
+			<img src="images/dd_orangecircle.svg" id="orange-2" class="background-image">
+			<img src="images/dd_orangecircle.svg" id="orange-3" class="background-image">
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+		<script src="./scripts/main.js"></script>
+	</body>
 </html>

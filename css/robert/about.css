@@ -1,0 +1,43 @@
+
+h1 {  
+	font-size: 4em;
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 100px;
+	color: #e76200;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 200;
+	color: #8e8d8d;
+}
+
+h4 {
+	font-size: 2em;
+	font-weight: 200;
+	text-decoration: none;
+	color: #8e8d8d;
+}
+
+p {
+	font-size: 2em;
+	font-weight: 200;
+	line-height: 1.5em;
+}
+
+.orange {
+	color: #E76200;
+}
+
+header,  main{
+  margin-top: 100px;
+}
+
+section {
+  margin-top: 50px;
+}

@@ -1,66 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>About-Dowe Design Studio</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet"  href="css/about.css">
-	<link rel="stylesheet"  href="css/stylesheet.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
-	<script>
-		function openMenu(){
-			document.getElementById('menu').style.width='300px';
-		}
-		function closeMenu(){
-			document.getElementById('menu').style.width='0px';
-		}
-	</script>
-</head>
-<body>
-	<div id="content-wrapper">
-		<nav id="navbar">
-					<a href="index.html">Home</a>
-					<a href="about.html">About</a>
-					<a href="portfolio.html">+Portfolio</a>
-					<a href="contact.html">Contact</a>
-			</nav>
-	
-<header>
-	<div class="fixed-div">
-		<img src="images/dd_logo.png" class="center" alt="Dowe Design Studio">
-			<h1>dowe design studio</h1>
-	</div>
-</header>
-<main>
-	<section class="about">
-			<h2>Well......hello there......</h2>
-			<p>Now that you found me...I would like to tell you a little bit about myself and the services I offer.
-			I am an individual with a <span class="orange">passion</span> for <span class="orange">creativity</span>.  I believe in the transformative power of illustration 
-			and design and their ability to simplify communications and to elevate, engage and inspire people globally.
-			Good design and relations start with collaboration and an open communication with my clients.  I have an extensive
-			background in fashion and felt strongly transitioning into media graphics.  I love everything to do with visual 
-			design, product development, mobile and web projects and branding.  My background provides me with solid
-			experience and ability to help clients build, manage and grow a successful business.</p>
-	
-	</section>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About-Dowe Design Studio</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/robert/stylesheet.css">
+    <link rel="stylesheet" href="css/robert/about.css">
 
-	<section class="about">
-		<h3>Let's collaborate and build an amazing</h3>
-		<h4><span class="orange">experience</span>........together</h4>
-	</section>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
+  </head>
+  <body class="container-fluid">
+      
+    <!-- Navbar -->
+    <nav class="row" id="navbar">
+      <a href="index.html" class="col-md text-center">Home</a>
+      <a href="about.html" class="col-md text-center">About</a>
+      <a href="portfolio.html" class="col-md text-center">+Portfolio</a>
+      <a href="contact.html" class="col-md text-center">Contact</a>
+    </nav>
+    
+    <!-- Title -->
+    <header class="container-fluid">
+      <img src="images/dd_logo.png" class="img-fluid mx-auto d-block" alt="Dowe Design Studio">
+      <h1 class="text-center">dowe design studio</h1>
+    </header>
+    
+    <!-- Content -->
+    <main>
+      <section class="container">
+        <h2 class="text-left">Well......hello there......</h2>
+        <p class="text-center">Now that you found me...I would like to tell you a little bit about myself and the services I offer.
+        I am an individual with a <span class="orange">passion</span> for <span class="orange">creativity</span>.  I believe in the transformative power of illustration 
+        and design and their ability to simplify communications and to elevate, engage and inspire people globally.
+        Good design and relations start with collaboration and an open communication with my clients.  I have an extensive
+        background in fashion and felt strongly transitioning into media graphics.  I love everything to do with visual 
+        design, product development, mobile and web projects and branding.  My background provides me with solid
+        experience and ability to help clients build, manage and grow a successful business.</p>
+      </section>
 
-	<section>
-		<div class="prev-next">
-			<a href="index.html" class="previous">&laquo; Previous</a>
-			<a href="portfolio.html" class="next">Next &raquo;</a>
-		</div>
-	</section>
-</main>
-<footer>
-		Copyright © Dowe Design Studio  All Rights Reserved
-</footer>
-	</div>
-</body>
+      <section class="container-fluid">
+        <h3 class="text-center">Let's collaborate and build an amazing</h3>
+        <h4 class="text-center"><span class="orange">experience</span>........ together</h4>
+      </section>
+
+      <!-- Nav Footer -->
+      <section id="footer-nav" class="container-fluid row justify-content-between">
+        <div class="col-xs">
+          <a href="index.html" class="col-sm text-center">&laquo; Previous</a>
+        </div>
+        <div class="col-xs">
+          <a href="portfolio.html" class="col-sm text-center">Next &raquo;</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Line -->
+		<hr/>
+
+    <!-- Footer -->
+    <footer class="text-center" id="footer">
+      Copyright © Dowe Design Studio  All Rights Reserved
+    </footer>
+  </body>
 </html>
