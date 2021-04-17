@@ -8,24 +8,40 @@ header {
 }
 h1 {
   padding-bottom: 0.5em;
+  font-size: 4em;
+	font-weight: 200;
+	text-decoration: none;
 }
 
 h2 {
   padding-bottom: 4em;
+  font-size: 2em;
+	font-weight: 200;
+	text-decoration: none;
 }
 
 h3 {
   padding-bottom: 4em;
+  font-size: 2em;
+  font-weight: 200;
+  color: #423f3f;
 }
 
 #social-media {
   padding-top: 4em;
 }
 
-form input {
-  background-color: aqua;
+form input, textarea {
+  background-color:  #FFB0BD !important; 
+  font-weight: 400 !important;
+  font-size: 1em !important; 
+  color: black !important;
 }
 
-textarea { 
-  background-color:aqua !important;
+span.orange{
+	color: #E76200;
+}
+
+#social-media a {
+  border-color: black;
 }
