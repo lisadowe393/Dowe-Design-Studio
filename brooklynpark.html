@@ -6,7 +6,7 @@
 	<title>Brooklyn Park</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/brooklynpark.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
@@ -29,37 +29,33 @@
 						<a href="contact.html">Contact</a>
 				</nav>
 
-	<header id="portfolio">
+	<header>
 			<h1>BROOKLYN PARK</h1>
 			<p>Branding  Mobile &amp; Web  Packaging</p>
 	</header>
 
 <main>
 	<section>
-		<div id="container">
-			<div class="banner">
+		<div class="banner">
+			<div class="heading">
 				<img src="images/bp-banner1.jpg" width="100%"   alt="banner">
 		</div>
 	</section>
 
-	<section>
-		<div class="park-bk">
-			<div id="motion">
-				<img src="images/bb-sun.png" id="sun" class="background-image" width="25%"   alt="Sun"> 
+	<section class="park-bk">
+		<img src="images/bb-sun.png" id="sun" class="background-image" width="25%"   alt="Sun"> 
 				<img src="images/bb-building.png" id="building" class="background-image" width="50%" alt="Building">
 				<img src="images/bb-logo.png" id="logo" class="background-image" width="50%" alt="Logo">
 				<img src="images/bb-tag.svg" id="tag" class="background-image" width="40%" height="40%">
-			</div>
-		</div>
 	</section>
-
-	<div class="ingredient">
-		<img src="images/bakerhand.png" id="ingredient" alt="Illustration">
-		<section id="featured-text">
-			<h3 id="sub-left">100% natural ingredients</h3>
-			<h3 id="sub-right">100% vegan &amp; gluten free</h3>
-		</section>
-		</div>
+	
+<div class="ingredient">
+	<img src="images/bakerhand.png" id="ingredient" alt="Illustration">
+	<section id="featured-text">
+		<h2 id="sub-left">100% natural ingredients</h2>
+		<h3 id="sub-right">100% vegan &amp; gluten free</h3>
+	</section>
+	</div>
 
 		<section id="shop">
 			<div class="shop-sign">
@@ -67,7 +63,7 @@
 			</div>
 			
 			<div class="about-bk">
-				<h5>About</h5>
+				<h4>About</h4>
 				<p>Here at Brooklyn Park Bakery, we created a cookie made from 100% natural ingredients.  
 					We produce small batches to insure freshness.  Ahhh, the smell of fresh baked cookies......
 					there is nothing more delightful! These tempting treats are 100% gluten free and vegan.  
@@ -75,37 +71,39 @@
 			</div>
 		</section>
 		
-
-	<section class="images-bk">
-		<div class="img-left">
-			
-		</div>
-		<div class="img-center">
-		
-		</div>
-		<div class="img-right">
-		
-		</div>
-	</section>
+		<section>
+			<div class="container-fluid">
+				<div class="row no-gutters d-flex">
+					<div class="column col-xs-2">
+					<img src="images/bb-image3.jpg" id="left" alt="Cookies">
+					</div>
+					<div class="column col-sm-8">
+					<img src="images/bb-image4.jpg" id="middle" alt="Chef">
+					</div>
+					<div class="column col-sm-2">
+					<img src="images/bb-image2.jpg" id="right" alt="Cookies">
+					</div>
+				</div>
+			</div>
+		</section>
 
 <section>
-         <div class="container-fluid1">
-            <h4>Color Palette</h4>
+         <div class="container">
+            <h5>Color Palette</h5>
 			<div class="colors">
-				
-                        <img src="images/bp-aqua.jpg" id="color"  width="150px" alt="Aqua">
-                        <div class="caption-center">RGB:10-159-175<br>HEX:#0A9FAF<br>CMYK:79-18-30-0</div>
+				<div id="row d-flex no gutters">
+                 <img src="images/bp-aqua.jpg" id="color"  width="135px" alt="Aqua">
+                <div class="caption-center">RGB:10-159-175<br>HEX:#0A9FAF<br>CMYK:79-18-30-0</div>
                      	
-                        <img src="images/bp-sage.jpg" id="color"  width="150px" alt="Sage">
-                        <div class="caption-center">RGB:69-122-108<br>HEX:#457A6C<br>CMYK:75-35-59-14</div>
+                <img src="images/bp-sage.jpg" id="color"  width="135px" alt="Sage">
+                <div class="caption-center">RGB:69-122-108<br>HEX:#457A6C<br>CMYK:75-35-59-14</div>
                        
-                        <img src="images/bp-citron.jpg" id="color"  width="150px" alt="Citron">
-                        <div class="caption-center">RGB:227-218-94<br>HEX:#E3DA5E<br>CMYK:13-6-77-0</div>
+                <img src="images/bp-citron.jpg" id="color"  width="135px" alt="Citron">
+                <div class="caption-center">RGB:227-218-94<br>HEX:#E3DA5E<br>CMYK:13-6-77-0</div>
                        
-                        <img src="images/bp-green.jpg" id="color"  width="150px" alt="Green">
-                        <div class="caption-center">RGB:0-137-73<br>HEX:#008949<br>CMYK:87-22-95-8</div>
-                    
-               </div>
+                <img src="images/bp-green.jpg" id="color"  width="135px" alt="Green">
+                <div class="caption-center">RGB:0-137-73<br>HEX:#008949<br>CMYK:87-22-95-8</div>      
+        	</div>
          </div>
       </section>
 
