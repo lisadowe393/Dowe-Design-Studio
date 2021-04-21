@@ -1,5 +1,5 @@
 
-document.querySelectorAll('.container-fluid1 img').forEach (function(target){
+document.querySelectorAll('#panels img').forEach (function(target){
   console.log(target)
   var fadeIn = gsap.timeline({
     repeat: -1,
