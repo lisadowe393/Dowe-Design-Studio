@@ -35,11 +35,17 @@ h1 {
 	color: #fff;
 } 
 
-h2 {
+/* h2 {
 	font-size: 1em;
 	font-weight: 200;
 	word-spacing: 7em;
 	letter-spacing: .5em;
+	color: #7a3b29;
+} */
+
+h2 {
+	font-size: 2em;
+	font-weight: 200;
 	color: #7a3b29;
 }
 
@@ -171,8 +177,14 @@ p {
 h8 {
   color: #fff;
   transition: 0.5s;
-  padding: .5em;
+  padding: 1em;
   text-transform: uppercase;
   font-size: 1.5em;
   font-weight: 400;
+}
+
+#address, #hours {
+	font-size: 1em;
+	font-weight: 200;
+	color: #7a3b29;
 }
