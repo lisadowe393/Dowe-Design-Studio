@@ -1,192 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Brooklyn Park</title>
-	<link rel="stylesheet" href="css/normalize.css">
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/stylesheet.css">
-	<link rel="stylesheet" href="css/brooklynpark.css">
+	<!-- <link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/brooklynpark.css"> -->
+	<link rel="stylesheet" href="css/robert/stylesheet.css">
+	<link rel="stylesheet" href="css/robert/brooklynpark.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
-	<script>
-		function openMenu(){
-			document.getElementById('menu').style.width='300px';
-		}
-		function closeMenu(){
-			document.getElementById('menu').style.width='0px';
-		}
-	</script>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
-<body>
-	<body>
-		<div id="content-wrapper">
-				<nav id="navbar">
-						<a href="index.html">Home</a>
-						<a href="about.html">About</a>
-						<a href="portfolio.html">+Portfolio</a>
-						<a href="contact.html">Contact</a>
-				</nav>
+
+<body class="container-fluid">
+
+	<!-- Navbar -->
+	<nav class="row" id="navbar">
+		<a href="index.html" class="col-md text-center">Home</a>
+		<a href="about.html" class="col-md text-center">About</a>
+		<a href="portfolio.html" class="col-md text-center">+Portfolio</a>
+		<a href="contact.html" class="col-md text-center">Contact</a>
+	</nav>
 
 	<header id="portfolio">
-			<h1>BROOKLYN PARK</h1>
-			<p>Branding  Mobile &amp; Web  Packaging</p>
+		<h1 class="text-center" style="margin-top: 2em;">BROOKLYN PARK</h1>
+		<p class="text-center" style="margin-top: 3em;">Branding Mobile &amp; Web Packaging</p>
 	</header>
 
-<main>
-	<section>
-		<div id="container">
-			<div class="banner">
-				<img src="images/bp-banner1.jpg" width="100%"   alt="banner">
-		</div>
-	</section>
-
-	<section>
-		<div class="park-bk">
-			<div id="motion">
-				<img src="images/bb-sun.png" id="sun" class="background-image" width="25%"   alt="Sun"> 
-				<img src="images/bb-building.png" id="building" class="background-image" width="50%" alt="Building">
-				<img src="images/bb-logo.png" id="logo" class="background-image" width="50%" alt="Logo">
-				<img src="images/bb-tag.svg" id="tag" class="background-image" width="40%" height="40%">
-			</div>
-		</div>
-	</section>
-
-	<div class="ingredient">
-		<img src="images/bakerhand.png" id="ingredient" alt="Illustration">
-		<section id="featured-text">
-			<h3 id="sub-left">100% natural ingredients</h3>
-			<h3 id="sub-right">100% vegan &amp; gluten free</h3>
-		</section>
-		</div>
-
-		<section id="shop">
-			<div class="shop-sign">
-				<img src="images/bb-image5.jpg" id="sign" alt="Shop Sign">
-			</div>
-			
-			<div class="about-bk">
-				<h5>About</h5>
-				<p>Here at Brooklyn Park Bakery, we created a cookie made from 100% natural ingredients.  
-					We produce small batches to insure freshness.  Ahhh, the smell of fresh baked cookies......
-					there is nothing more delightful! These tempting treats are 100% gluten free and vegan.  
-					Every detail was considered.  Developing these cookies we spared no expense.</p>
-			</div>
-		</section>
-		
-
-	<section class="images-bk">
-		<div class="img-left">
-			
-		</div>
-		<div class="img-center">
-		
-		</div>
-		<div class="img-right">
-		
-		</div>
-	</section>
-
-<section>
-         <div class="container-fluid1">
-            <h4>Color Palette</h4>
-			<div class="colors">
-				
-                        <img src="images/bp-aqua.jpg" id="color"  width="150px" alt="Aqua">
-                        <div class="caption-center">RGB:10-159-175<br>HEX:#0A9FAF<br>CMYK:79-18-30-0</div>
-                     	
-                        <img src="images/bp-sage.jpg" id="color"  width="150px" alt="Sage">
-                        <div class="caption-center">RGB:69-122-108<br>HEX:#457A6C<br>CMYK:75-35-59-14</div>
-                       
-                        <img src="images/bp-citron.jpg" id="color"  width="150px" alt="Citron">
-                        <div class="caption-center">RGB:227-218-94<br>HEX:#E3DA5E<br>CMYK:13-6-77-0</div>
-                       
-                        <img src="images/bp-green.jpg" id="color"  width="150px" alt="Green">
-                        <div class="caption-center">RGB:0-137-73<br>HEX:#008949<br>CMYK:87-22-95-8</div>
-                    
-               </div>
-         </div>
-      </section>
-
-	  <section>
-		<div class="container-fluid2">
-		<h5>Typography:  Beliau<h5>
-		   <img src="images/bp-font.svg" id="font" class="img-fluid" width="100%">
-	 </section>
-
-	 <section>
-		<div class="container-fluid3">
-		<h5>Graphic Elements<h5>
-			<div class="row4  d-flex justify-content-center ">
-				<div class="column12 col-sm-4">
-		   			<img src="images/bp-treegreen.svg" id="graphic" class="img-fluid">
+	<main>
+		<!-- Banner -->
+		<section  style="margin-top: 5em;">
+			<div id="container">
+				<div class="banner">
+					<img src="images/bp-banner1.jpeg" width="100%" alt="banner">
 				</div>
-		  		 <div class="column13 col-sm-4">
+		</section>
+
+		<!-- big animation -->
+		<div class="container-fluid"  style="margin-bottom: 2em;">
+			<div class="park-bk">
+				<div id="motion">
+					<img src="images/bb-sun.png" id="sun" class="background-image" width="25%" alt="Sun">
+					<img src="images/bb-building.png" id="building" class="background-image" width="50%" alt="Building">
+					<img src="images/bb-logo.png" id="logo" class="background-image" width="50%" alt="Logo">
+					<img src="images/bb-tag.svg" id="tag" class="background-image" width="40%" height="40%">
+				</div>
+			</div>
+		</div>
+
+		<!-- salt -->
+		<section class="ingredient container-fluid" id="featured-text">
+			<div class="row align-items-center">
+				<div class="col-sm-4" style="margin-top: 2em;">
+					<h3 class="text-center">100% natural ingredients</h3>
+				</div>
+				<div class="col-sm-4"  style="margin-top: 2em; margin-bottom: 2em;">
+					<img class="img-fluid mx-auto d-block" src="images/bakerhand.png" id="ingredient" alt="Illustration">
+				</div>
+				<div class="col-sm-4" style="margin-bottom: 2em;">
+					<h3 class="text-center">100% vegan &amp; gluten free</h3>
+				</div>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section class="container-fluid" id="shop">
+			<div class="row align-items-center">
+				<div class="col-sm-6 shop-sign">
+					<img class="img-fluid" src="images/bb-image5.jpg" id="sign" alt="Shop Sign">
+				</div>
+	
+				<div class="col-sm-6 about-bk">
+					<h5 class="text-center">About</h5>
+					<p class="text-center">Here at Brooklyn Park Bakery, we created a cookie made from 100% natural ingredients.
+						We produce small batches to insure freshness. Ahhh, the smell of fresh baked cookies......
+						there is nothing more delightful! These tempting treats are 100% gluten free and vegan.
+						Every detail was considered. Developing these cookies we spared no expense.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Color Palette all 4 in a row-->
+		<!-- <section class="container-fluid" id="color-palette">
+			<h4 class="text-center">Color Palette</h4>
+			<div class="row colors">
+				<div class="w-25">
+					<img class="container-fluid" src="images/bp-aqua.jpg" id="color" alt="Aqua">
+					<div class="text-center" id="color-caption">RGB:10-159-175<br>HEX:#0A9FAF<br>CMYK:79-18-30-0</div>
+				</div>
+				<div class="w-25">
+					<img class="container-fluid" src="images/bp-sage.jpg" id="color" alt="Sage">
+					<div class="text-center" id="color-caption">RGB:69-122-108<br>HEX:#457A6C<br>CMYK:75-35-59-14</div>
+				</div>
+				<div class="w-25">
+					<img class="container-fluid" src="images/bp-citron.jpg" id="color" alt="Citron">
+					<div class="text-center" id="color-caption">RGB:227-218-94<br>HEX:#E3DA5E<br>CMYK:13-6-77-0</div>
+				</div>
+				<div class="w-25">
+					<img class="container-fluid" src="images/bp-green.jpg" id="color" alt="Green">
+					<div class="text-center" id="color-caption">RGB:0-137-73<br>HEX:#008949<br>CMYK:87-22-95-8</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- Color Palette columns -->
+		<section class="container-fluid" id="color-palette">
+			<h4 class="text-center" style="margin-top: 1em; margin-bottom: 1em;">Color Palette</h4>
+			<div class="row colors">
+				<div class="col-sm-3">
+					<img class="container-fluid" src="images/bp-aqua.jpg" id="color" alt="Aqua">
+					<div class="text-center" id="color-caption">RGB:10-159-175<br>HEX:#0A9FAF<br>CMYK:79-18-30-0</div>
+				</div>
+				<div class="col-sm-3">
+					<img class="container-fluid" src="images/bp-sage.jpg" id="color" alt="Sage">
+					<div class="text-center" id="color-caption">RGB:69-122-108<br>HEX:#457A6C<br>CMYK:75-35-59-14</div>
+				</div>
+				<div class="col-sm-3">
+					<img class="container-fluid" src="images/bp-citron.jpg" id="color" alt="Citron">
+					<div class="text-center" id="color-caption">RGB:227-218-94<br>HEX:#E3DA5E<br>CMYK:13-6-77-0</div>
+				</div>
+				<div class="col-sm-3">
+					<img class="container-fluid" src="images/bp-green.jpg" id="color" alt="Green">
+					<div class="text-center" id="color-caption" style="margin-bottom: 2em;">RGB:0-137-73<br>HEX:#008949<br>CMYK:87-22-95-8</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Typography -->
+		<section class="container-fluid" id="typography" >
+			<h5 class="text-center" style="margin-top: 1em;">Typography: Beliau<h5>
+			<img src="images/bp-font.svg" id="font" class="img-fluid mx-auto d-block">
+		</section>
+
+		<!-- Graphic Elements -->
+		<section class="container-fluid" id="graphic-elements">
+			<h5 class="text-center" style="margin-top: 1em; margin-bottom: 1em;">Graphic Elements</h5>
+			<div class="row align-items-bottom">
+				<div class="col-4">
+					<img src="images/bp-treegreen.svg" id="graphic" class="img-fluid">
+				</div>
+				<div class="col-4">
 					<img src="images/bp-treeblue.svg" id="graphic" class="img-fluid">
 				</div>
-			<div class="column14 col-sm-4">
-				<img src="images/bp-treelime.svg" id="graphic" class="img-fluid">
-			</div>
-		</div>
-	 </section>
-	 
-	 <section>
-		<div class="container-fluid4">
-			<div class="row5 no gutters d-flex">
-				<div class="column14 col-sm-6">
-					<img src="images/bp-brochure.png" id="brochure" class="img-fluid" >	
-			 	</div>
-			 	<div class="column15 col-sm-6">
-					<img src="images/bp-cookiebox.png" id="pack" class="img-fluid" >
-				 </div>
-		</div>
-		<div class="container-fluid5">
-			 <div class="row6 no-gutters d-flex">
-				<div class="column17 col-lg-6">
-					<img src="images/shoppingbag.jpg" id="shopping" class="img-fluid" >	
-				 </div>
-					 <div class="column18 col-sm-6">
-						<img src="images/barister.jpg" id="barister" class="img-fluid">
-						<div class="centered">ORGANIC COFFEE<br>& TEA</div>
-					</div>
-			</div>
-		</div>
-	 </section>
-
-	 <section>
-		<div class="container-fluid6">
-			<div class="row6 no-gutters d-flex">
-				<div class="column17 col-sm-6">
-					<img src="images/b-image7.jpg" id="subscribe" class="drop-shadow" width="100%" height="80%">
-				</div>
-				<div class="column17 col-sm-6">
-					<img src="images/bp-ipad.png" id="phone" class="drop-shadow" width="80%" height="100%">
+				<div class="col-4">
+					<img src="images/bp-treelime.svg" id="graphic" class="img-fluid" style="margin-bottom: 2em;">
 				</div>
 			</div>
-		</div>
+		</section>
 
-	 </section>
+		<!-- Pictures -->
+		<section class="container-fluid" id="organic-coffee">
+			<h5 class="text-center" style="margin-top: 1em; margin-bottom: 1em;">ORGANIC COFFEE<br>& TEA</h5>
+			<div class="row align-items-center">
+				<div class="col-sm-6">
+					<img src="images/bp-brochure.png" id="brochure" class="img-fluid">
+				</div>
+				<div class="col-sm-6">
+					<img src="images/bp-cookiebox.png" id="pack" class="img-fluid">
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-sm-6">
+					<img src="images/shoppingbag.jpg" id="shopping" class="img-fluid">
+				</div>
+				<div class="col-sm-6">
+					<img src="images/barister.jpg" id="barister" class="img-fluid">
+				</div>
+			</div>
+		</section>
 
-	 <section>
-		<div class="container-fluid7">
-			<h6>WARNING!!! THIS WEBSITE CONTAINS COOKIES!</h6>
-			<img src="images/bb-cookies.png" class="img-fluid" id="cookies" width="600" height="125">
-	 </section>
-	 
-	 <section>
-		<div class="prev-next">
-			<a href="dowedesignstudio.html" class="previous">&laquo; Previous</a>
-			<a href="wanderlust.html"class="next">Next &raquo;</a>
-		</div>
-	
+		<!-- iPad -->
+		<section class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-sm-6">
+					<img src="images/b-image7.jpg" id="subscribe" class="img-fluid drop-shadow">
+				</div>
+				<div class="col-sm-6">
+					<img src="images/bp-ipad.png" id="phone" class="img-fluid drop-shadow">
+				</div>
+			</div>
+		</section>
+
+		<!-- cookies -->
+		<section class="container-fluid" id="cookies">
+			<h6 class="text-center" style="margin-bottom: 3em;">WARNING!!! THIS WEBSITE CONTAINS COOKIES!</h6>
+			<img src="images/bb-cookies.png" class="img-fluid mx-auto d-block" id="cookies" style="padding-bottom: 3em;">
+		</section>
 	</main>
-	<footer>
+
+	<!-- Nav Footer -->
+	<div id="footer-nav" class="container-fluid row justify-content-between">
+		<div class="col-xs">
+			<a href="dowedesignstudio.html" class="col-sm text-center">&laquo; Previous</a>
+		</div>
+		<div class="col-xs">
+			<a href="wanderlust.html" class="col-sm text-center">Next &raquo;</a>
+		</div>
+	</div>
+
+	<hr/>
+
+	<!-- Footer -->
+	<footer class="text-center" id="footer">
 		Copyright © Dowe Design Studio  All Rights Reserved
 	</footer>
-	
-	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
 	<script src="./scripts/brooklynpark.js"></script>
-	</body>
-	</html>
+</body>
+
+</html>
