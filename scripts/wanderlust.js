@@ -36,7 +36,7 @@ showSlides(slideIndex);
 
 
 
-gsap.to('#animals, #animals1', {
+gsap.to('#animals', {
     xPercent: 100,
     repeat: -1,
     ease: "none",
@@ -48,8 +48,8 @@ gsap.to('#animals, #animals1', {
 
 
 var animation = gsap.timeline({defaults:{ duration: 5, ease:'none'}})
-animation.to('#jeep, #jeep1', {
-  x: 1920,
+animation.to('#jeep-animation-1, #jeep-animation-2', {
+  x: 2500,
   repeat: -1,
   ease: "none",
   duration: 6
