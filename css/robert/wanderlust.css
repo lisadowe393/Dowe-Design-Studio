@@ -103,3 +103,8 @@ p {
 #animals1 {
   position: absolute;
 }
+
+.color {
+	padding: 1em;
+	padding-bottom: 2em;
+}
