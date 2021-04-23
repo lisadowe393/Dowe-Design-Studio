@@ -43,12 +43,6 @@ section {
 p {
 	font-size: 1em;
 	font-weight: 200;
-	text-decoration: none;
-	display: block; 
-	text-align: center;
-	margin-top: 25px;
-	margin-left: 12px;
-	margin-right: auto;
 
 }
 
@@ -65,18 +59,6 @@ p {
   overflow: hidden;
 }
 
-/* Resize on small screens */
-@media screen and (max-width: 940px) {
-  #typing h2 {	
-    font-size: 3em;
-    font-weight: 200;
-    text-decoration: none;
-    letter-spacing: .1em;
-    padding: 20px;
-  } 
-}
-
-
 h3 {
 	font-size: 2em;
 	font-weight: 200;
@@ -92,5 +74,39 @@ h6 {
 	font-weight: 200;
 	text-decoration: none;
 	color: #e76200;
+}
+
+#palette img {
+	padding: 1em;
+}
+
+#color {
+	padding-bottom: 2em;
+}
+
+#slogan {
+	padding: 1em;
+	font-size: 3em;
+	font-weight: 200;
+	color: #e76200;
+}
+
+/* Resize on small screens */
+@media screen and (max-width: 940px) {
+  #typing h2 {	
+    font-size: 3em;
+    font-weight: 200;
+    text-decoration: none;
+    letter-spacing: .1em;
+    padding: 20px;
+  } 
+
+	#slogan {
+		font-size: 1em;
+	}
+
+	header p {
+		letter-spacing: .2em;
+	}
 }
 
