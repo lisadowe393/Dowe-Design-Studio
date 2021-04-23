@@ -1,3 +1,21 @@
+/* #carouselExampleIndicators {
+	position: relative;
+} */
+
+#logo {
+	position: absolute;
+	width: 50%;
+  transform: translate(32%, -120%);
+	opacity: .8;	
+	z-index: 10;
+}
+
+@media screen and (max-width: 940px) {
+	#logo {
+		transform: translate(40%, -130%);
+	}
+}
+
 .centered {
   position: absolute;
   top: 50%;
