@@ -127,3 +127,21 @@ p {
 	padding: 1em;
 	padding-bottom: 2em;
 }
+
+#india-banner {
+	background-color: #BB772A;
+	padding: 2em;
+	margin-bottom: -7em;
+}
+
+#mongolia-banner {
+	background-color: #A0BA6E;
+	padding: 2em;
+	margin-bottom: -7em;
+}
+
+#trek-banner {
+	background-color: #CCE8E3;
+	padding: 2em;
+	margin-bottom: -7em;
+}
