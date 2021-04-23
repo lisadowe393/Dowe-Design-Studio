@@ -14,11 +14,7 @@
 	z-index: 10;
 }
 
-@media screen and (max-width: 940px) {
-	#logo {
-		transform: translate(40%, -130%);
-	}
-}
+
 
 .centered {
   position: absolute;
@@ -116,20 +112,27 @@ p {
 }
 
 #animals-container {
+	position: relative;
   width: 100%;
 	height: 10em;
 	overflow: hidden;
 }
 
-#animals {
+/* #animals {
   position: absolute;
   right: 10em;
 	height:5em;
+} */
+
+#animals1{
+	position: absolute;
+	top: 5px;
+	right:100%;
 }
 
-#animals1 {
+/* #animals1 {
   position: absolute;
-}
+} */
 
 .color {
 	padding: 1em;
@@ -152,4 +155,16 @@ p {
 	background-color: #CCE8E3;
 	padding: 2em;
 	margin-bottom: -7em;
+}
+
+
+@media screen and (max-width: 940px) {
+	#logo {
+		transform: translate(40%, -130%);
+	}
+
+	#animals, #animals1 {
+		height: 5em;
+		width: auto;
+	}
 }

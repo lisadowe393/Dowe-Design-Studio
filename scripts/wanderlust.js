@@ -36,7 +36,7 @@ showSlides(slideIndex);
 
 
 
-gsap.to('#animals', {
+gsap.to('#animals, #animals1', {
     xPercent: 100,
     repeat: -1,
     ease: "none",
