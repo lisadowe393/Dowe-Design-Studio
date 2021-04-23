@@ -1,6 +1,10 @@
-/* #carouselExampleIndicators {
-	position: relative;
-} */
+.carousel-indicators li {
+  background-color: #E76200;
+}
+
+.carousel-indicators .active {
+  background-color: white;
+}
 
 #logo {
 	position: absolute;
