@@ -5,7 +5,7 @@
 #logo {
 	position: absolute;
 	width: 50%;
-  transform: translate(32%, -120%);
+  transform: translate(33%, -120%);
 	opacity: .8;	
 	z-index: 10;
 }
