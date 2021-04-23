@@ -36,6 +36,10 @@ section {
   margin-top: 3em;
 }
 
+#books h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+
 #cards img {
   padding: 2em;
 }
