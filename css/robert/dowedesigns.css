@@ -32,13 +32,13 @@ section {
 .pink {
   fill: url(#pd);
 }
-#text{
+/* #text{
 	position: relative;
   top: 0;
   left: 0;
 	left: 10%;
   z-index: -100;
-}
+} */
 
 p {
 	font-size: 1em;
@@ -91,6 +91,13 @@ h6 {
 	color: #e76200;
 }
 
+/* .wrapper {
+	position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(0%, -100%);
+} */
+
 /* Resize on small screens */
 @media screen and (max-width: 940px) {
   #typing h2 {	
@@ -110,3 +117,65 @@ h6 {
 	}
 }
 
+#text{
+	position: absolute;
+	top: -85px;
+	left: 10%;	
+}
+#text1{
+	position: absolute;
+	top: -85px;
+	left: 310%;
+}
+#text2{
+	position: absolute;
+	top: -85px;
+	left: 610%;		
+}
+#text3{
+	position: absolute;
+	top: 35px;
+	left: 10%;	
+}
+#text4{
+	position: absolute;
+	top: 35px;
+	left: 310%;
+}
+
+#text5{
+	position: absolute;
+	top: 35px;
+	left: 610%;	
+}
+#text6{
+	position: absolute;
+	top: 150px;
+	left: 10%;	
+}
+#text7{
+	position: absolute;
+	top: 150px;
+	left: 310%;
+}
+
+#text8{
+	position: absolute;
+	top: 150px;
+	left: 610%;	
+}
+#text9{
+	position: absolute;
+	top: 275px;
+	left: 10%;	
+}
+#text10{
+	position: absolute;
+	top: 275px;
+	left: 310%;
+}
+#text11{
+	position: absolute;
+	top: 275px;
+	left: 610%;
+}
