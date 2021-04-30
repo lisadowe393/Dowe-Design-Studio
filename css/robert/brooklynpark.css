@@ -91,9 +91,72 @@ section {
   color: #ffffff;
 }
 
+#motion {
+	padding-top: 5em;
+	/* margin-bottom: -20em; */
+	/* z-index: 0; */
+	/* position: relative; */
+	overflow: hidden;
+}
+
+#sun{
+	transform: translate(-100%, 70%);
+	/* width: 25%;
+	z-index: 10;
+	position: relative; */
+
+}
+#building{
+	transform: translate(20%, 0%);
+	/* width: 40%;
+	z-index: 20;
+	position: relative; */
+}
+ #logo{
+	transform: translate(0%, -60%);
+	/* width: 70%;
+	z-index: 30;
+	position: relative; */
+}
+#tag{
+	transform: translate(0%, -100%);
+	/* width: 70%;
+	z-index: 40;
+	position: relative; */
+}
 
 @media screen and (max-width: 940px) {
   #cookies h6 {
 		font-size: 1.25em;
 	}
+
+	#motion {
+		padding-top: 0em;
+	}
+
+	#sun{
+		transform: translate(-100%, 70%);
+		width: 30%;
+		/* z-index: 10; */
+		/* position: relative; */
+	
+	}
+	#building{
+		transform: translate(20%, 0%);
+		width: 70%;
+		/* z-index: 20; */
+		/* position: relative; */
+	}
+	 #logo{
+		transform: translate(0%, -60%);
+		width: 70%;
+		/* z-index: 30;
+		position: relative; */
+	}
+	#tag{
+		transform: translate(0%, -100%);
+		width: 70%;
+		/* z-index: 40; */
+		/* position: relative; */
+	}	
 }
