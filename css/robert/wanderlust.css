@@ -106,8 +106,9 @@ p {
 
 #jeep-animation-2 {
   position: absolute;
-	height: 35em;
+	height: 3em;
   right: 120em;
+	transform: translateY(4em);
   
 }
 
