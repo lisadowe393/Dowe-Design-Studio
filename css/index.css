@@ -165,7 +165,23 @@ main {
 	z-index: 1;
 }
 
-
+@media screen and (max-width: 940px) {
+	.featured h2 {
+		letter-spacing: .1em !important;
+	}
+	
+	.featured h3 {
+		letter-spacing: .1em !important;
+	}
+	
+	.featured p {
+		letter-spacing: .1em !important;
+	}
+	
+	.featured h4 {
+		letter-spacing: .1em !important;
+	}
+}
 
 
 
