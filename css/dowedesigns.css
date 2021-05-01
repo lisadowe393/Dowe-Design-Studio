@@ -103,65 +103,78 @@ h6 {
 	}
 }
 
-#text{
+/* VERTICAL ANIMATION */
+/* #horizontal-anim-wrapper {
+	display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+} */
+
+/* row 1 */
+#text1a {
 	position: absolute;
 	top: -85px;
 	left: 10%;	
 }
-#text1{
+#text1b {
 	position: absolute;
 	top: -85px;
 	left: 310%;
 }
-#text2{
+#text1c {
 	position: absolute;
 	top: -85px;
 	left: 610%;		
 }
-#text3{
+
+/* row 2 */
+#text2a {
 	position: absolute;
 	top: 35px;
 	left: 10%;	
 }
-#text4{
+#text2b {
 	position: absolute;
 	top: 35px;
 	left: 310%;
 }
-
-#text5{
+#text2c {
 	position: absolute;
 	top: 35px;
 	left: 610%;	
 }
-#text6{
+
+/* row 3 */
+#text3a {
 	position: absolute;
 	top: 150px;
 	left: 10%;	
 }
-#text7{
+#text3b {
 	position: absolute;
 	top: 150px;
 	left: 310%;
 }
-
-#text8{
+#text3c {
 	position: absolute;
 	top: 150px;
 	left: 610%;	
 }
-#text9{
+
+/* row 4 */
+#text4a{
 	position: absolute;
 	top: 275px;
 	left: 10%;	
 }
-#text10{
+#text4b{
 	position: absolute;
 	top: 275px;
 	left: 310%;
 }
-#text11{
+#text4c{
 	position: absolute;
 	top: 275px;
 	left: 610%;
 }
+/* END HORIZONTAL ANIMATION */
