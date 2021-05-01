@@ -1,62 +1,49 @@
-#portfolio-header h1{
+h1 {  
 	font-size: 2.5em;
 	font-weight: 200;
 	text-decoration: none;
-	text-align: center;
-	letter-spacing: .5em;
-	margin-top: 75px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
-	padding: 20px;
+	letter-spacing: .25em;
 }
-.content-container{
-	width: 75%;
-	text-align: center;
-	margin: 50px auto;
-}
-#portfolio h2{
-	font-size: 1.75em;
+
+h2 {
+  font-size: 1.75em;
 	font-weight: 400;
 	color: #ffffff;
-	text-align: center;
 	word-spacing: .25em;
-	margin: 0 auto 15px auto;
 }
-#portfolio h2:hover{
+
+h2:hover{
 	color: #ffb0bd;
-}
-p{
-	font-size: 1em;
-	font-weight: 200;
-	word-spacing: 1em;
-	text-align: center;
-	margin: 0 auto 50px;
-}
-.container-fluid img{
-	width:  20%;
-	margin: 2%;
 }
 
 a {
 	font-size: 1em;
 	font-weight: 200;
 	text-decoration: none;
-	display: inline-block;
-	padding: 8px 16px;
-	margin-left: 10px;
-	margin-right: 0;	
 }
+
 a:hover {
 	color: #fff;
 }
 
-/*-------------------------
-Media Queries
----------------------------*/
+#links p { 
+  padding-bottom: 3em;
+  padding-top: 1em;
+}
 
-@media screen and (max-width: 375px) {
-	#portfolio-header h1{
-		margin-left: -14px;
-	}
+p {
+	font-size: 1em;
+	font-weight: 200;
+	word-spacing: 1em;
+}
+
+header {
+  padding: 5em;
+}
+
+#circles {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 4em;
 }
