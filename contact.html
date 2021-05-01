@@ -43,7 +43,7 @@
 			<section class="container">
 				<h1>Contact</h1>
 				<!-- <form id="contact-form" method="post" action="contact-2.php" role="form"></form> -->
-				<form>
+				<form onsubmit="sendEmail()">
 					<div class="form-group row">
 						<input class="col-md" type="text" class="form-control" id="first_name" placeholder="First Name" required>
 					</div>
@@ -52,9 +52,6 @@
 					</div>
 					<div class="form-group row">
 						<input class="col-md" type="email" class="form-control" id="email" placeholder="Your email" required>
-					</div>
-					<div class="form-group row">
-						<input class="col-md" type="text" class="form-control" id="subject" placeholder="Subject" required>
 					</div>
 					<div class="form-group row">
 						<textarea class="form-control" id="message" rows="5" placeholder="Message..." required></textarea>
@@ -101,9 +98,9 @@
     </footer>
 
 		<!-- <script src="./scripts/class.phpmailer.php"></script> -->
-		<!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script> -->
-		<!-- <script src="./scripts/contact.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+		<script src="./scripts/contact.js"></script>
 	</body>
 </html>
