@@ -35,8 +35,6 @@ header p {
 
 section {
   border-top: solid 1px #7a3b29;
-  /* padding-top: 1em; */
-  /* margin-bottom: 5em; */
 }
 
 /* Fonts */
@@ -45,14 +43,6 @@ h1 {
 	font-weight: 200;
 	color: #fff;
 } 
-
-/* h2 {
-	font-size: 1em;
-	font-weight: 200;
-	word-spacing: 7em;
-	letter-spacing: .5em;
-	color: #7a3b29;
-} */
 
 h2 {
 	font-size: 2em;
@@ -90,8 +80,6 @@ p {
 	position: relative;
 	width: 325px;
 	height: 250px;
-	/* margin-top: 25px;
-	margin-left: 30px; */
 	overflow: hidden;
 	transition: 0.5s;
 }

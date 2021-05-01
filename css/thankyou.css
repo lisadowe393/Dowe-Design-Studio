@@ -1,13 +1,4 @@
-/* #header {
-	margin-top: 75px;
-} */
-
-/* #logo {
-	display: block;
-	margin: 20px auto 50px auto;
-} */
-
-h1{  
+h1 {  
 	font-size: 4em;
 	font-weight: 200;
 	text-decoration: none;
@@ -35,7 +26,7 @@ h3 {
 	font-size: 2em;
 	font-weight: 200;
 	text-decoration: none;
-    color: #e76200;
+	color: #e76200;
 	text-align: center;
 	display: block;
 	margin-left: auto;

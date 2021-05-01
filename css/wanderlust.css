@@ -14,8 +14,6 @@
 	z-index: 10;
 }
 
-
-
 .centered {
   position: absolute;
   top: 50%;
@@ -119,21 +117,11 @@ p {
 	overflow: hidden;
 }
 
-/* #animals {
-  position: absolute;
-  right: 10em;
-	height:5em;
-} */
-
 #animals1{
 	position: absolute;
 	top: 5px;
 	right:100%;
 }
-
-/* #animals1 {
-  position: absolute;
-} */
 
 .color {
 	padding: 1em;
