@@ -89,3 +89,11 @@ header {
 header h1 {
   padding-bottom: 2em;
 }
+
+#spinners {
+  width: 95%;
+}
+
+#spinners img {
+  padding: .25em;
+}
