@@ -39,18 +39,18 @@
 			<section class="container">
 				<h1>Contact</h1>
 				<!-- <form id="contact-form" method="post" action="contact-2.php" role="form"></form> -->
-				<form onsubmit="sendEmail()">
+				<form method="POST" action="scripts/email.php" id="contact-form">
 					<div class="form-group row">
-						<input class="col-md" type="text" class="form-control" id="first_name" placeholder="First Name" required>
+						<input name="name" class="col-md" type="text" class="form-control" id="first_name" placeholder="First Name" required>
+					</div>
+					<!-- <div class="form-group row">
+						<input name="last" class="col-md" type="text" class="form-control" id="last_name" placeholder="Last Name" required>
+					</div> -->
+					<div class="form-group row">
+						<input name="email" class="col-md" type="email" class="form-control" id="email" placeholder="Your email" required>
 					</div>
 					<div class="form-group row">
-						<input class="col-md" type="text" class="form-control" id="last_name" placeholder="Last Name" required>
-					</div>
-					<div class="form-group row">
-						<input class="col-md" type="email" class="form-control" id="email" placeholder="Your email" required>
-					</div>
-					<div class="form-group row">
-						<textarea class="form-control" id="message" rows="5" placeholder="Message..." required></textarea>
+						<textarea name="message" class="form-control" id="message" rows="5" placeholder="Message..." required></textarea>
 					</div>
 					<div class="form-group row">
 						<button type="submit" class="col btn btn-lg btn-outline-light">Contact</button>
@@ -91,11 +91,14 @@
     </footer>
 
 		<!-- Scripts -->
-		<!-- <script src="./scripts/class.phpmailer.php"></script> -->
+		
 		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 		<script src="./scripts/contact.js"></script>
+		<!-- <script src="./scripts/class.phpmailer.php"></script> -->
+		<!-- <script src="./scripts/email.php"></script> -->
 
 	</body>
 

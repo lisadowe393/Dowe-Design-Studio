@@ -17,6 +17,7 @@
  * FITNESS FOR A PARTICULAR PURPOSE.
  */
 
+
 /**
  * PHPMailer - PHP email creation and transport class.
  * @package PHPMailer
@@ -4034,3 +4035,5 @@ class phpmailerException extends Exception
         return $errorMsg;
     }
 }
+
+
