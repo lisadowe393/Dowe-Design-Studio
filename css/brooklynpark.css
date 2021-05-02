@@ -110,6 +110,10 @@ section {
 
 }
 
+#ingredient {
+	padding: 1em;
+}
+
 @media screen and (max-width: 940px) {
   #cookies h6 {
 		font-size: 1.25em;
@@ -137,4 +141,8 @@ section {
 		transform: translate(0%, -100%);
 		width: 70%;
 	}	
+
+	#coffee-man {
+		font-size: 2em;
+	}
 }
