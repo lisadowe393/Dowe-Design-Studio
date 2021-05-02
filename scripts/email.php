@@ -18,7 +18,6 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
 
     $mail = new PHPMailer(TRUE);
 
-    $mail->isSMTP();
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
     $mail->Username = "robert.clarkson.dev.test@gmail.com";
@@ -33,22 +32,17 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
     $mail->Body = $body;
 
     if($mail->send()) {
-      $status = "success";
-      $response = "Email is Sent!";
+      header("Location: https://dowedesignstudio.com/thankyou.html");
     } else {
-      $status = "failed";
-      $response = "Email failed!";
+      header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
     }
-    echo $status;
+    die();
   } catch (Exception $e) {
-    // echo $e->getMessage();
-    var_dump($e->getTrace());
+    header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
+    die();
   }
-
-  // header("Location: https://dowedesignstudio.com/thankyou.html");
-  // die();
-  // exit(json_encode(array("status" => $status, "response" => $response)));
 } else {
-  echo "Not Set";
+  header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
+  die();
 }
 ?>
