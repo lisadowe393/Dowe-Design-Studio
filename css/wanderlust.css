@@ -8,9 +8,10 @@
 
 #logo {
 	position: absolute;
-	width: 50%;
-  transform: translate(33%, -120%);
-	opacity: .8;	
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	opacity: .8;
 	z-index: 10;
 }
 
@@ -148,9 +149,6 @@ p {
 
 
 @media screen and (max-width: 940px) {
-	#logo {
-		transform: translate(40%, -130%);
-	}
 
 	#animals, #animals1 {
 		height: 5em;
