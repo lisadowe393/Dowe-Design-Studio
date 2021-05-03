@@ -81,7 +81,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
       <a href="index.html" class="col-md text-center">Home</a>
       <a href="about.html" class="col-md text-center">About</a>
       <a href="portfolio.html" class="col-md text-center">+Portfolio</a>
-      <a href="contact.html" class="col-md text-center">Contact</a>
+      <a href="contact.php" class="col-md text-center">Contact</a>
     </nav>
 
 		<!-- image -->
