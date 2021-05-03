@@ -170,6 +170,11 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
 				dummy.select();
 				document.execCommand('copy');
 				document.body.removeChild(dummy);
+
+				var email = document.getElementById("copyemailbtn").innerHTML = "Copied email to your clipboard!";
+				setTimeout(() => {
+					var email = document.getElementById("copyemailbtn").innerHTML = "<i class='bi bi-envelope'></i> info@dowedesignstudio.com";
+				}, 2000);
 			}
 
 		</script>
