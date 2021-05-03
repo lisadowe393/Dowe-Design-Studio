@@ -1,3 +1,63 @@
+<?php
+use PHPMailer\PHPMailer\PHPMailer;
+$msg = '';
+if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $message = $_POST['message'];
+
+  require_once 'scripts/PHPMailer.php';
+  require_once 'scripts/SMTP.php';
+  require_once 'scripts/Exception.php';
+
+  //Create a new PHPMailer instance
+  $mail = new PHPMailer();
+  //Send using SMTP to localhost (faster and safer than using mail()) – requires a local mail server
+  //See other examples for how to use a remote server such as gmail
+  // $mail->isSMTP();
+  $mail->Host = 'localhost';
+  $mail->Port = 25;
+
+  //Use a fixed address in your own domain as the from address
+  //**DO NOT** use the submitter's address here as it will be forgery
+  //and will cause your messages to fail SPF checks
+  $mail->setFrom('info@dowedesignstudio.com', 'Contact Form');
+
+  //Choose who the message should be sent to
+  $mail->addAddress('info@dowedesignstudio.com');
+
+  //Put the submitter's address in a reply-to header
+  //This will fail if the address provided is invalid,
+  //in which case we should ignore the whole request
+  if ($mail->addReplyTo($email, $name)) {
+      $mail->Subject = "Contact: " . $name . " | " . $email;
+      //Keep it simple - don't use HTML
+      $mail->isHTML(false);
+      //Build a simple message body
+      $mail->Body = <<<EOT
+        Email: {$email}
+        Name: {$name}
+        Message: {$message}
+        EOT;
+      //Send the message, check for errors
+      if (!$mail->send()) {
+          //The reason for failing to send will be in $mail->ErrorInfo
+          //but it's unsafe to display errors directly to users - process the error, log it on your server.
+          $msg = 'Woops, something went wrong. You can contact me directly at info@dowedesignstudio.com';
+          // echo $mail->ErrorInfo;
+      } else {
+          // echo 'Message sent! Thanks for contacting us.';
+          header("Location: https://dowedesignstudio.com/thankyou.html");
+          die();
+      }
+  } else {
+      $msg = 'You appear to have entered an invalid email address. You can contact me at info@dowedesignstudio.com';
+  } 
+} else {
+  $msg = 'Contact fields must be filled. Or, you can contact me directly at info@dowedesignstudio.com';
+}
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -38,8 +98,13 @@
 			<!-- Form -->
 			<section class="container">
 				<h1>Contact</h1>
+				<?php 
+					if (!empty($msg)) {
+						echo "<h2>$msg</h2>";
+					}
+				?>
 				<!-- <form id="contact-form" method="post" action="contact-2.php" role="form"></form> -->
-				<form method="POST" action="scripts/email.php" id="contact-form">
+				<form method="POST" id="contact-form">
 					<div class="form-group row">
 						<input name="name" class="col-md" type="text" class="form-control" id="first_name" placeholder="Your Name" required>
 					</div>
