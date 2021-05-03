@@ -47,4 +47,8 @@ span.orange{
   border-radius: 40px;
 }
 
+#copyemailbtn:hover {
+  color: black;
+}
+
 

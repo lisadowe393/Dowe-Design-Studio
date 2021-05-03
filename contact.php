@@ -51,10 +51,8 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
           die();
       }
   } else {
-      $msg = 'You appear to have entered an invalid email address. You can contact me at info@dowedesignstudio.com';
+      $msg = 'You appear to have entered an invalid email address. If this is a mistake, feel free to contact me at info@dowedesignstudio.com';
   } 
-} else {
-  $msg = 'Contact fields must be filled. Or, you can contact me directly at info@dowedesignstudio.com';
 }
 ?>
 
@@ -97,20 +95,20 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
 
 			<!-- Form -->
 			<section class="container">
-				<h1>Contact</h1>
-				<?php 
-					if (!empty($msg)) {
-						echo "<h2>$msg</h2>";
-					}
-				?>
-				<!-- <form id="contact-form" method="post" action="contact-2.php" role="form"></form> -->
+				<div class="row align-items-center">
+					<div class="col-12 col-lg-6">
+						<h1>Contact</h1>
+					</div>
+					<div class="col-12 col-lg-6">
+						<?php 
+							echo "<p>$msg</p>";
+						?>
+					</div>
+				</div>
 				<form method="POST" id="contact-form">
 					<div class="form-group row">
 						<input name="name" class="col-md" type="text" class="form-control" id="first_name" placeholder="Your Name" required>
 					</div>
-					<!-- <div class="form-group row">
-						<input name="last" class="col-md" type="text" class="form-control" id="last_name" placeholder="Last Name" required>
-					</div> -->
 					<div class="form-group row">
 						<input name="email" class="col-md" type="email" class="form-control" id="email" placeholder="Your email" required>
 					</div>
@@ -127,6 +125,9 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
 			<section id="social-media" class="container-fluid row justify-content-around">
 				<div class="col-xs">
 					<a class="btn btn-lg btn-outline-light text-center" href="https://www.instagram.com/dowedesignstudio/"><i class="bi bi-instagram"></i> Instagram</a>
+				</div>
+				<div class="col-xs">
+					<a id="copyemailbtn" class="btn btn-lg btn-outline-light text-center" onclick="copyEmail()"><i class="bi bi-envelope"></i> info@dowedesignstudio.com</a>
 				</div>
 				<div class="col-xs">
 					<a class="btn btn-lg btn-outline-light text-center" href="https://www.behance.net/dowedesignstudio"><i class="bi bi-brush"></i> Behance</a>
@@ -161,10 +162,17 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
-		<script src="./scripts/contact.js"></script>
-		<!-- <script src="./scripts/class.phpmailer.php"></script> -->
-		<!-- <script src="./scripts/email.php"></script> -->
+		<script type="text/javascript">
+			function copyEmail() {
+				var dummy = document.createElement("input");
+				document.body.appendChild(dummy);
+				dummy.setAttribute('value', "info@dowedesignstudio.com");
+				dummy.select();
+				document.execCommand('copy');
+				document.body.removeChild(dummy);
+			}
 
+		</script>
 	</body>
 
 </html>
