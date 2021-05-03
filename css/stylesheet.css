@@ -35,3 +35,48 @@ nav a:hover, #footer-nav a:hover{
 hr {
   border-top: 1px solid white;
 }
+
+/* LOADING */
+#load {
+  position:fixed;
+  z-index:9999;
+  animation: fadeIn 1s;
+  width: 100%; 
+  align-self: center; 
+  margin-top: 2em;
+}
+
+#load img {
+  animation-name: spin;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+#load h1 {
+  text-align: center;
+  margin: 2em;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@keyframes fadeOut {
+  0% {opacity:1;}
+  100% {opacity:0;}
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
