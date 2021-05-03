@@ -50,6 +50,7 @@ p {
 
 #typing {
   overflow: hidden;
+	height: 8em;
 }
 
 h3 {
@@ -87,12 +88,12 @@ h6 {
 /* Resize on small screens */
 @media screen and (max-width: 940px) {
   #typing h2 {	
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 200;
     text-decoration: none;
     letter-spacing: .1em;
     padding: 20px;
-  } 
+  }
 
 	#slogan {
 		font-size: 1em;
