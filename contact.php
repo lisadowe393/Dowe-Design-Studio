@@ -136,7 +136,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])) 
 			</section>
 			
 			<!-- Bottom Image -->
-			<section class="container-fluid">
+			<section class="container-fluid" id="bottom-head-section">
 				<img src="images/dd-head.svg" id="head" alt="Head" class="img-fluid mx-auto d-block">
 				<h3 class="text-center">CREATIVITY STARTS WITH THOUGHT</h3>		
 			</section>
