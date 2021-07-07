@@ -1,0 +1,171 @@
+#header {
+	margin-top: 75px;
+}
+
+#logo {
+	display: block;
+	margin: 20px auto 50px auto;
+}
+
+h1 {  
+	font-size: 4em;
+	font-weight: 200;
+	text-align: center;
+	margin: 0 auto 75px auto;
+}
+
+main {
+	max-width: 1920px;
+	min-width: 385px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.featured h2 {
+	font-size: 2.5em;
+	font-weight: 200;
+	text-decoration: none;
+	text-align: center;
+  margin-top: 175px;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: .5em;
+}
+
+.featured h3 {
+	font-size: 2.5em;
+	font-weight: 200;
+	text-align: center;
+	margin: 50px auto 50px auto;
+	letter-spacing: .5em;
+}
+
+.featured p {
+	font-size: 1.5em;
+	font-weight: 200;
+	color: #ffffff;
+	text-align: center;
+	margin: 150px auto;
+	line-height: 5;
+	word-spacing: 1em;
+	letter-spacing: .5em;
+}
+
+.featured h4 {
+	font-size: 2em;
+	font-weight: 200;
+	color: #e76200;
+	text-align: center;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: .5em;
+}
+
+.page-wrapper {
+	width: 25%;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 40%;
+	margin-right: 37.5%;
+	margin-bottom: 15px;
+}
+
+
+#background-wrapper {
+	position: absolute;
+	width: 90%;
+	height: 1605px;
+	top: 0;	
+	overflow: hidden;
+  z-index: -100;
+}
+
+.background-image {
+	position: absolute;
+
+}
+
+#right-ring {
+	top: 10%;
+	right: 4%;
+  width: 30%;
+}
+
+#left-ring {
+	bottom: 25%;
+	left: 8%;
+  width: 30%;
+}
+
+#right-pink {
+	top: 16%;
+	right: -15%;
+  width: 50%;
+}
+
+#left-pink {
+	top: 0%;
+	left: -17%;
+  width: 50%;
+}
+
+#right-orange {
+	top: 0%;
+	right: 5%;
+  width: 30%;
+}
+
+#left-orange {
+	bottom: 25%;
+	left: -5%;
+  width: 30%;
+}
+
+#pink-1 {
+	bottom: -1%;
+	left: 16%;
+  width: 50%;
+}
+
+#pink-2 {
+  top: 36%;
+  right: 46%;
+  width: 50%;
+}
+
+#pink-3 {
+  bottom: 22%;
+  right: -5%;
+  width: 30%;
+}
+
+#orange-1 {
+	bottom: 13%;
+	right:  5%;
+  width: 30%;
+}
+
+#orange-2 {
+	bottom: 65%;
+	left:  8%;
+  width: 30%;
+}
+
+#orange-3 {
+	top: 12%;
+	right:  8%;
+  width: 50%;
+}
+
+#content-wrapper {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 1;
+}
+
+
+
+
+

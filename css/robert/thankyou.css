@@ -1,0 +1,151 @@
+/* #header {
+	margin-top: 75px;
+} */
+
+/* #logo {
+	display: block;
+	margin: 20px auto 50px auto;
+} */
+
+h1{  
+	font-size: 4em;
+	font-weight: 200;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin-left: 50px;
+	margin-right: auto;
+	margin-bottom: 150px;
+}
+
+h2 {
+	font-size: 2;
+	font-weight: 200;
+    color: #e76200;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	letter-spacing: .5em;
+}
+h3 {
+	font-size: 2em;
+	font-weight: 200;
+	text-decoration: none;
+    color: #e76200;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	letter-spacing: .2em;
+}
+
+
+#background-wrapper {
+	position: absolute;
+	width: 90%;
+	height: 1605px;
+	top: 0;	
+	overflow: hidden;
+  z-index: -100;
+}
+
+.background-image {
+	position: absolute;
+
+}
+
+#right-ring {
+	top: 10%;
+	right: 4%;
+  width: 30%;
+}
+
+#left-ring {
+	bottom: 25%;
+	left: 8%;
+  width: 30%;
+}
+
+#right-pink {
+	top: 16%;
+	right: -15%;
+  width: 50%;
+}
+
+#left-pink {
+	top: 0%;
+	left: -17%;
+  width: 50%;
+}
+
+#right-orange {
+	top: 0%;
+	right: 5%;
+  width: 30%;
+}
+
+#left-orange {
+	bottom: 25%;
+	left: -5%;
+  width: 30%;
+}
+
+#pink-1 {
+	bottom: -1%;
+	left: 16%;
+  width: 50%;
+}
+
+#pink-2 {
+  top: 36%;
+  right: 46%;
+  width: 50%;
+}
+
+#pink-3 {
+  bottom: 22%;
+  right: -5%;
+  width: 30%;
+}
+
+#orange-1 {
+	bottom: 13%;
+	right:  5%;
+  width: 30%;
+}
+
+#orange-2 {
+	bottom: 65%;
+	left:  8%;
+  width: 30%;
+}
+
+#orange-3 {
+	top: 12%;
+	right:  8%;
+  width: 50%;
+}
+
+#content-wrapper {
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 1;
+}
+
+main {
+	overflow: hidden;
+}
+
+footer {
+	margin-top: 15em;
+	position: fixed;
+	width: 100%;
+}
+
